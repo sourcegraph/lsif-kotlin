@@ -30,7 +30,7 @@ val snapshotsImplementation: Configuration by configurations.getting {
 dependencies {
     implementation(kotlin("stdlib"))
     compileOnly(kotlin("compiler-embeddable"))
-    implementation("com.google.protobuf", "protobuf-java", "3.15.7")
+    implementation("com.google.protobuf", "protobuf-java", "3.21.4")
     implementation(projects.semanticdbKotlin)
 
     testImplementation(kotlin("compiler-embeddable"))
